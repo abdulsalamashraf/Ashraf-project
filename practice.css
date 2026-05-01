@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ccc;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background: linear-gradient(45deg,rgb(73, 73, 202),purple);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    height: 20vh;
+    line-height: 2;
+    place-content: center;
+    box-shadow:5px,5px,5px,5px rgb(0, 0, 0,0.9);
+}
+
+p{
+    padding-top: 20px;
+}
+
+.students-id-cards{
+    width: 70%;
+    margin:1.5rem auto;
+    background-color: white;
+    height: 40vh;
+    border-radius: .5rem;
+    padding: 1rem;
+    line-height: 2;
+}
+
+.students-id-cards p{
+    padding-top: 1rem;
+}
+
+.students-id-cards ul{
+    margin-left: 1.5rem;
+}
+
+.id-cards-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    justify-content: center;
+}
+
+#id-cards-grid-content1,
+#id-cards-grid-content2,
+#id-cards-grid-content3,
+#id-cards-grid-content4,
+#id-cards-grid-content5,
+#id-cards-grid-content6{
+    margin: 1rem;
+    height: 60vh;
+    border-radius: 1rem;
+}
+
+#id-cards-grid-content2,
+#id-cards-grid-content3,
+#id-cards-grid-content4{
+    border: 3px solid steelblue;
+}
+
+
+.id-cards-header1,
+.id-cards-header2,
+.id-cards-header3,
+.id-cards-header5,
+.id-cards-header6{
+    background-color: steelblue;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    padding-top: .5rem;
+    color: white;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.id-cards-header4{
+     background-color: rgb(6, 48, 83);
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    padding-top: .5rem;
+    color: white;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.id-cards-body{
+    padding-left: .2rem;
+    line-height: 1.55;
+}
+
+.id-cards-body1,.id-cards-body2,.id-cards-body3,.id-cards-body4{
+    background-color: azure;
+}
+
+
+
+.id-cards-body5{
+    background-color: rgb(255, 217, 0);
+    color: white;
+}
+#id-cards-grid-content5{
+    border: 3px solid goldenrod;
+}
+
+.id-cards-body6{
+    background-color: rgb(233, 50, 80);
+    color: white;
+}
+#id-cards-grid-content6{
+    border: 3px solid rgb(245, 10, 49);
+}
+
+#footer{
+    border-top: .5px solid white;
+    background-color: bisque;
+    height: fit-content;
+    padding-top: 1rem;
+    border-radius: 0 0 1rem 1rem;
+    text-align: center;
+}
+
+footer{
+    border: 1px solid black;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.806);
+}
+
+/* nav{
+   border-radius: 1rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(40deg,blue,purple);
+    align-items: center;
+}
+
+img{
+    width: 100px;
+    
+}
+button{
+    width: 140px;
+    height: 40px;
+    border-radius: 8px;
+    
+}
+ul{
+    display: flex;
+    gap: 120px;
+    list-style: none;
+ 
+} */
